@@ -244,6 +244,7 @@ export default function Home() {
             <Image
               src="/imgi_42_66956c24b06a30e2abd303c1_Logo-TechCrunch-Large2.avif.svg"
               className="h-6 sm:h-8 object-contain"
+              alt="img"
             />
           </div>
           <div
@@ -252,6 +253,7 @@ export default function Home() {
             <Image
               src="/imgi_43_66956c240c7252f99a711862_Logo-Insider-Large.avif.svg"
               className="h-6 sm:h-8 object-contain"
+              alt="img"
             />
           </div>
           <div
@@ -260,6 +262,7 @@ export default function Home() {
             <Image
               src="/imgi_44_66956c243edb28a09bb80185_Logo-Mashable-Large.avif.svg"
               className="h-6 sm:h-8 object-contain"
+              alt="img"
             />
           </div>
           <div
@@ -268,6 +271,7 @@ export default function Home() {
             <Image
               src="/imgi_45_66956c24fcbadb976185fa13_Logo-Fortune-Large.avif.svg"
               className="h-6 sm:h-8 object-contain"
+              alt="img"
             />
           </div>
           <div
@@ -276,6 +280,7 @@ export default function Home() {
             <Image
               src="/imgi_46_66956c247ae4d73b70397940_Logo-Forbes-Large.avif.svg"
               className="h-6 sm:h-8 object-contain"
+              alt="img"
             />
           </div>
 
