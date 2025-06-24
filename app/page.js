@@ -72,7 +72,7 @@ export default function Home() {
 
         {/* Right Image Section */}
         <div className="order-1 lg:order-2 flex justify-center items-center">
-          <img
+          <Image
             src="/home.png"
             className="w-full max-w-md sm:max-w-lg lg:max-w-[70%] h-auto object-contain"
             alt="Linktree preview"
@@ -85,7 +85,7 @@ export default function Home() {
       <section className="bg-[#e9c0e9] min-h-screen grid grid-cols-1 lg:grid-cols-2 items-center px-6 lg:px-20 py-16 gap-10">
         {/* Left Image Section */}
         <div className="order-1 flex justify-center items-center">
-          <img
+          <Image
             src="/home2.png"
             alt="Customize Linktree"
             className="w-full max-w-md sm:max-w-lg lg:max-w-[70%] h-auto object-contain"
@@ -128,7 +128,7 @@ export default function Home() {
 
         {/* Right Image Section */}
         <div className="order-1 lg:order-2 flex justify-center items-center">
-          <img
+          <Image
             src="/home3.png"
             alt="Linktree QR and bio usage"
             className="w-full max-w-md sm:max-w-lg lg:max-w-[80%] h-auto object-contain"
@@ -141,7 +141,7 @@ export default function Home() {
       <section className="bg-[#e8efd6] min-h-screen grid grid-cols-1 lg:grid-cols-2 items-center px-6 lg:px-20 py-16 gap-10">
         {/* Left Image Section */}
         <div className="order-2 lg:order-1 flex justify-center items-center">
-          <img
+          <Image
             src="/home4.png"
             alt="Audience analytics"
             className="w-full max-w-md sm:max-w-lg lg:max-w-[80%] h-auto object-contain"
@@ -178,7 +178,7 @@ export default function Home() {
           <Slider {...settings} className="overflow-hidden">
             {[...Array(7)].map((_, i) => (
               <div key={i} className="px-2 w-[316px] min-h-[400px]">
-                <img
+                <Image
                   src={`/slide${i + 1}.webp`}
                   alt={`Slide ${i + 1}`}
                   className={`w-full h-full object-cover ${i === 0 ? 'rounded-[40px]' : i === 1 ? 'rounded-full' : ''}`}
@@ -193,11 +193,11 @@ export default function Home() {
           {/* Left Boxes */}
           <div className="flex flex-col gap-10">
             <div className="flex flex-col bg-[#e9c0e9] rounded-2xl px-6 py-10 gap-6">
-              <img src="/imgi_39_680c13b834d3994a796896bd_all your things.png" alt="Feature 1" />
+              <Image src="/imgi_39_680c13b834d3994a796896bd_all your things.png" alt="Feature 1" />
               <h3 className="text-[20px] md:text-[24px] font-bold">Share your content in limitless ways on your Linktree.</h3>
             </div>
             <div className="flex flex-col bg-[#d2e823] rounded-2xl px-6 py-10 gap-6">
-              <img src="/imgi_40_680c16a391a7e027f3fbda59_products.png" alt="Feature 2" />
+              <Image src="/imgi_40_680c16a391a7e027f3fbda59_products.png" alt="Feature 2" />
               <h3 className="text-[20px] md:text-[24px] font-bold">Sell products and collect payments. It’s monetization made simple.</h3>
             </div>
           </div>
@@ -205,7 +205,7 @@ export default function Home() {
           {/* Right Box */}
           <div className="flex justify-center items-center bg-[#2665d6] rounded-2xl px-6 py-10 text-center">
             <div className="flex flex-col items-center gap-6">
-              <img src="/imgi_41_680c13b83b832c35450e92d6_Group 48096668.png" className="max-w-full w-[90%] sm:w-[400px] lg:w-[499px]" alt="Grow audience" />
+              <Image src="/imgi_41_680c13b83b832c35450e92d6_Group 48096668.png" className="max-w-full w-[90%] sm:w-[400px] lg:w-[499px]" alt="Grow audience" />
               <h3 className="text-[22px] md:text-[28px] text-white font-bold">
                 Grow, own and engage your audience by unifying them in one place.
               </h3>
@@ -241,7 +241,7 @@ export default function Home() {
           <div
             className="rounded-[32px] bg-white px-6 py-3 w-[140px] sm:w-[180px] md:w-[200px] flex justify-center items-center shadow-sm"
           >
-            <img
+            <Image
               src="/imgi_42_66956c24b06a30e2abd303c1_Logo-TechCrunch-Large2.avif.svg"
               className="h-6 sm:h-8 object-contain"
             />
@@ -249,7 +249,7 @@ export default function Home() {
           <div
             className="rounded-[32px] bg-white px-6 py-3 w-[140px] sm:w-[180px] md:w-[200px] flex justify-center items-center shadow-sm"
           >
-            <img
+            <Image
               src="/imgi_43_66956c240c7252f99a711862_Logo-Insider-Large.avif.svg"
               className="h-6 sm:h-8 object-contain"
             />
@@ -257,7 +257,7 @@ export default function Home() {
           <div
             className="rounded-[32px] bg-white px-6 py-3 w-[140px] sm:w-[180px] md:w-[200px] flex justify-center items-center shadow-sm"
           >
-            <img
+            <Image
               src="/imgi_44_66956c243edb28a09bb80185_Logo-Mashable-Large.avif.svg"
               className="h-6 sm:h-8 object-contain"
             />
@@ -265,7 +265,7 @@ export default function Home() {
           <div
             className="rounded-[32px] bg-white px-6 py-3 w-[140px] sm:w-[180px] md:w-[200px] flex justify-center items-center shadow-sm"
           >
-            <img
+            <Image
               src="/imgi_45_66956c24fcbadb976185fa13_Logo-Fortune-Large.avif.svg"
               className="h-6 sm:h-8 object-contain"
             />
@@ -273,7 +273,7 @@ export default function Home() {
           <div
             className="rounded-[32px] bg-white px-6 py-3 w-[140px] sm:w-[180px] md:w-[200px] flex justify-center items-center shadow-sm"
           >
-            <img
+            <Image
               src="/imgi_46_66956c247ae4d73b70397940_Logo-Forbes-Large.avif.svg"
               className="h-6 sm:h-8 object-contain"
             />

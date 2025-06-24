@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 export default function Generate() {
     return (
@@ -25,7 +26,8 @@ export default function Generate() {
             </div>
             <div className='col2 bg-[#225ac0] w-full h-screen flex justify-center items-center'>
                 {/* <img src="/login_banner.webp" className='h-full object-contain' alt="" /> */}
-                <img src="/image.png" className='h-full object-contain' alt="" />
+                <Image src="/image.png" className='h-full object-contain' alt="" />
+                
             </div>
         </div>
     )

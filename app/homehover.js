@@ -1,5 +1,6 @@
 "use client";
 import React, { useRef } from "react";
+import Image from "next/image";
 
 export default function HoverImage({ src, alt }) {
   const imgRef = useRef(null);
@@ -22,7 +23,7 @@ export default function HoverImage({ src, alt }) {
       onMouseLeave={handleMouseLeave}
       className="w-full h-full overflow-hidden relative rounded-lg shadow-md"
     >
-      <img
+      <Image
         ref={imgRef}
         src={src}
         alt={alt}
